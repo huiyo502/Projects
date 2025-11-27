@@ -7,8 +7,8 @@ https://pubmed.ncbi.nlm.nih.gov/33743817/
 * **Extract data from public dataset** 
 * **Clean and filter data** 
 * **Build up transformer model using pytorch:**
-![Molecular Optimization Workflow](transformer.png")  
-![Molecular Optimization Workflow](Generator.png")
+![Molecular Optimization Workflow](transformer.png)  
+![Add additional information to improve model prediction ability](Generator.png)
 
 ## 📧 Contact Information
 
