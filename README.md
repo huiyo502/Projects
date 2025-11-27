@@ -23,6 +23,8 @@ This document provides a concise overview of my research projects focused on qua
 * **Aim:** To explore the use of machine learning and statistical models for forecasting individual-level treatment outcomes in clinical Phase 2b trials from Phase 2a.
 * **Methodology:** We tested a range of machine learning and statistical approaches to forecast biomarker responses across different treatment arms. These included classical time-series models such as **ARIMA** and **ARIMAX**, alongside advanced ML algorithms like **XGBoost**, **Gaussian Process**, and **Random Forest**.
 
+---
+
 ### 4. Molecular optimization
 * **Aim:**  To explore the ability of machine learning model for generating molecules satisfying the desirable properties.
 * **Methodology:** Two main models are employed: the classic Sequence-to-Sequence model with Attention Mechanism and the state-of-the-art Transformer model. To allow project-specific optimization, user-specified desirable property changes (e.g., changes in $\text{logD}$, solubility, or clearance) are incorporated into the input sequence as an additional conditional input, guiding the model to generate molecules satisfying these criteria.
