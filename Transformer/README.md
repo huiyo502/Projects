@@ -14,27 +14,23 @@ We have implemented a Transformer-based architecture to realize the intuition-ca
 
 ### 1. The Basic Transformer Structure
 
-The foundation of our implementation is a sequence-to-sequence Transformer architecture, designed to learn the probability of making 'good moves' based on a starting molecular scaffold.
+The foundation of our implementation is a sequence-to-sequence Transformer architecture, designed to create new molecular based on chemistist requirements.
 
 ![Molecular Optimization Workflow](transformer.png)
 
 ### 2. Guided Generation Mechanisms
 
-We explore different mechanisms to inject **external guidance** (e.g., specific property constraints, target features) into the generation process, moving beyond simple next-token prediction.
+We explore different mechanisms to inject **external guidance** (e.g., molecular weight, logP, etc) into the generation process for generating favorible molecule and also predict the property for this molecule. The three different approached are shown in below:
 
-#### 2.1 The Generator Module
-
-This module is responsible for outputting the optimized molecular structure, informed by both the learned chemical context and the specified requirements.
+#### 2.1 The Generator
 
 ![Generator](Generator.png)
 
-#### 2.2 Decoder and Multi-Head Attention
+#### 2.2 Decoder 
 
-The **Decoder** processes the latent representation and the generated tokens, while the **Multi-Head Attention** mechanism is crucial for allowing the model to focus on different parts of the input/intermediate sequences simultaneously, capturing complex structure-activity relationships.
+![Decoder](Decoder.png)
 
-* **Decoder Structure:**
-    ![Decoder](Decoder.png)
-* **Multi-Head Attention Mechanism:**
-    ![Multihead attention](attention.png)
+#### 2.3 Attention 
+![Multihead attention](attention.png)
 
 ---
