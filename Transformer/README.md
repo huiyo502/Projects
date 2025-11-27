@@ -3,20 +3,15 @@ https://pubmed.ncbi.nlm.nih.gov/33743817/
 ---
 
 ## ✨ My work
+We have implemented a Transformer-based architecture to realize the intuition-capturing and molecular generation phases. Our work includes:
 
-* **Extract data from public dataset** 
-* **Clean and filter data** 
-* **Build up transformer model using pytorch:**
+* **Data Pipeline:** Extracting, cleaning, and filtering molecular data from public datasets to create a training set of expert-favored molecular transformations.
+* **Core Model Development:** Building the fundamental Transformer-based model using **PyTorch**.
+* **Architecture Exploration:** Investigating different approaches to integrate additional requirements (constraints/objectives) into the generation process to further guide model prediction.
 The Basic model structure
 ![Molecular Optimization Workflow](transformer.png)
 I also explore the different approach to add additional requirement to guide model prediction
 ![Generator](Generator.png)
 ![Decoder](Decoder.png)
-![Multihead attention](Multihead attention.png)
+![Multihead attention](attention.png)
 
-## 📧 Contact Information
-
-For academic inquiries, collaborations, or questions regarding the methodology, please contact:
-
-* **Primary Investigator:** [Your Name / Lead Author Name]
-* **Email:** [Your Professional Email Address]
