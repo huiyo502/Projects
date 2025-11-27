@@ -6,7 +6,7 @@ This document provides a overview of my research projects focused on machine lea
 
 ## 1. Pharmacokinetics (PK) Prediction (Regression)
 
-* **Aim:** To build Machine Learning (ML) models capable for predicting drug concentration over time for COVID-19 disease with small and high uncertaintiesclinical data.
+* **Aim:** To build Machine Learning (ML) models capable for predicting drug concentration over time for COVID-19 disease with small and high uncertainty clinical data.
 * **Methodology:** We explored the predictive capacity of various ML algorithms for drug pharmacokinetics. Based on simulated data, we trained models including **Linear Regression**, **Gradient Boosting Machines (GBM)**, **XGBoost**, and **Random Forest** to predict the plasma concentration-time series and the rifampicin **Area Under the Concentration-versus-Time Curve from 0–24 h ($\text{AUC}_{0–24h}$)** after repeated dosing.
 
 ---
